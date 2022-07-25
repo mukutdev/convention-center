@@ -1,0 +1,47 @@
+/* Hero carousel Css */
+.carousel-item img{
+    max-height: 700px !important;
+    object-fit: cover;
+}
+.bg-overlay{
+    position: relative;
+}
+.bg-overlay::before{
+    width: 100%;
+    content: '';
+    position: absolute;
+    background: #21201eb5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+}
+/* pricing area css */
+.btn-color{
+    background-color: #FEF5FB;
+}
+.btn-color::hover{
+    background-color: #FEF5FB !important;
+    
+}
+.price-area{
+    height: 390px;
+}
+.price-hot{
+    height: 460px;
+   
+}
+.box-shadow{
+    box-shadow: 0 1rem 3rem #0D6EFD!important;
+    position: relative;
+}
+.box-shadow::before {
+    position: absolute;
+    content: 'Hot';
+    top: -15px;
+    right: 50px;
+    background-color: #FF4E4E;
+    color: #fff;
+    border-radius: 50px;
+    padding: 2px 15px;
+}
